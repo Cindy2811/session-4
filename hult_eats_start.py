@@ -22,6 +22,8 @@ restaurants = {
 
 def display_restaurants():
     """ Display available restaurants""" 
+    for rest in restaurants.key():
+        print(f "rest")
     
 def display_menu(restaurant):
     """Display menu for selected restaurant"""
